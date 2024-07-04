@@ -8,8 +8,6 @@ nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-from PIL import Image
-
 pickle_in = open("Classifier.pkl","rb")
 classifier=pickle.load(pickle_in)
 
